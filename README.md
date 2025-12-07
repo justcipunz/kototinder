@@ -1,16 +1,30 @@
-# kototinder
+# Kototinder 🐱🔥
 
-A new Flutter project.
+Приложение для просмотра и оценки котиков.
 
-## Getting Started
+Выполнено в рамках Домашней работы №1.
 
-This project is a starting point for a Flutter application.
+Работу выполнил: Кажкаримов Асхат. 
 
-A few resources to get you started if this is your first Flutter project:
+## Функционал
+- **Свайпы:** Механика лайк/дизлайк с анимацией карточек (Appinio Swiper).
+- **Мэтчи:** Сохранение любимых котиков в "Избранное". Удаление котиков из любимых.
+- **Инфо:** Детальный экран с характеристиками породы (Страна, Вес, Продолжительность жизни, Темперамент).
+- **Список пород:** Отдельный каталог всех пород с поиском и аватарками.
+- **API:** Работа с TheCatAPI (поддержка ключей, обработка ошибок).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Техническая часть
+- **Стек:** Flutter, Dart.
+- **Сеть:** Dio (с интерцепторами и тайм-аутами).
+- **Кэширование:** CachedNetworkImage для картинок.
+- **Архитектура:** Разделение на слои (Screens, Models, Services).
+- **Визуал:** Кастомная иконка, шрифт Nunito, адаптивная верстка, Material 3.
+- **Code Quality:** Линтер настроен, код отформатирован (`flutter analyze` проходит без ошибок).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншоты
+| Главный экран | Детали | Избранное | Список пород |
+|---|---|---|---|
+| <img src="screenshots/home_screen.jpg" width="200" /> | <img src="screenshots/details_screen.jpg" width="200" /> | <img src="screenshots/favorites_screen.jpg" width="200" /> | <img src="screenshots/breeds_screen.jpg" width="200" /> |
+
+## Скачать APK
+[Скачать актуальную версию (app-release.apk)](https://github.com/justcipunz/kototinder/releases/tag/1.0)

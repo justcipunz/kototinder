@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "kototinder",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=CAT_API_KEY=live_DasN93gTLbQLOtMh1Yu1JIiWpQcLbr8awnmhOCtUOugB2TBXJRwa27rwUgLEEUDe"
+            ]
+        }
+    ]
+}
